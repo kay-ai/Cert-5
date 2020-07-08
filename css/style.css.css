@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+body{
+    font-family: 'Prompt', sans-serif;;
+    background: #E5E5E5;;
+}
+
+.container{
+    width: 1050px;
+    margin: auto;
+    display: flex;
+    height: 680px;
+}
+
+.side{
+    width: 450px;
+    height: auto;
+    background: linear-gradient(180deg, #00AEFF 0%, rgba(0, 174, 255, 0.89) 50.52%, #91D4F2 100%, #91D4F2 100%);;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.certificate{
+    width: inherit;
+    background: #ffffff;
+    padding-left: 80px;
+    padding-top: 60px;
+}
+
+.side-text{
+    font-size: 24px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #FFFFFF;
+    height: 60px;
+    line-height: 60px;
+}
+
+.side-img{
+    height: 60px;
+}
+
+.side .bg-img{
+    position: absolute;
+    bottom: 0;
+}
+
+.certificate p small{
+    text-align: right;
+    display: block;
+    padding-right: 70px;
+    margin-bottom: 60px;
+    font-size: 10px;
+    color: #080808 !important;
+    font-weight: 300;
+}
+
+.certificate h2{
+    font-size: 30px;
+    color: #4F4F4F;;
+}
+
+.certificate p{
+    font-weight: 600;
+    color: #BDBDBD;
+}
+
+.certificate h1{
+    font-size: 50px;
+    color: #00AEFF;;
+}
+
+.certificate .bg-img2{
+    position: relative;
+    bottom: 350px;
+    width: 225px;
+    left: 455px;
+}
+
+.user-info{
+    width: 425px;
+}
+
+.signature{
+    display: block;
+    text-align: right;
+    line-height: 0px;
+    padding-right: 70px;
+    margin-top: 50px;
+}
+
+.sign-name{
+    font-family: 'Homemade Apple', cursive;
+    font-weight: 300 !important;
+    color: #080808 !important;
+    font-size: 20px !important;
+}
+
+.signature .line{
+    border: .5px solid black;
+    width: 150px;
+    position: relative;
+    right: -230px;
+    bottom: 10px;
+
+}
+
+.signature small{
+    font-size: 8px;
+}
